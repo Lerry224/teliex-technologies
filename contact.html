@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="scroll-progress" id="scrollProgress"></div>
 <div class="bg-mesh"></div>
 <div class="bg-dots"></div>
 
@@ -93,6 +94,7 @@
             </div>
             <div class="field"><label for="fmsg">Tell us about the project</label><textarea id="fmsg" required></textarea></div>
             <button type="submit" class="submit-btn"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            <div class="form-error" id="formError"><i class="fa-solid fa-triangle-exclamation"></i> <span>Couldn't send your message — please check your connection and try again, or reach us on WhatsApp.</span></div>
           </form>
           <div class="form-success" id="formSuccess">
             <i class="fa-solid fa-circle-check"></i>
@@ -103,8 +105,8 @@
       </div>
     </div>
 
-    <div class="photo reveal" style="aspect-ratio:16/6;margin-top:40px;">
-      <img src="https://picsum.photos/seed/teliex-office-map/1200/450" alt="Teliex Technologies office location">
+    <div class="photo wipe" style="aspect-ratio:16/6;margin-top:40px;">
+      <div class="brand-art mix"><i class="fa-solid fa-location-dot ba-icon"></i><span class="ba-tag">NO. 175, Adeyemi College Rd · Ondo State, Nigeria</span></div>
     </div>
 
     <div class="faq-list reveal">

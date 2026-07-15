@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="scroll-progress" id="scrollProgress"></div>
 <div class="bg-mesh"></div>
 <div class="bg-dots"></div>
 
@@ -43,7 +44,7 @@
 <!-- REPAIR -->
 <section class="service-block" id="repair">
   <div class="container sb-grid">
-    <div class="sb-media photo reveal-left"><img src="https://picsum.photos/seed/teliex-svc-repair/700/560" alt="Phone repair technician at work"></div>
+    <div class="sb-media photo wipe"><div class="brand-art"><i class="fa-solid fa-mobile-screen-button ba-icon"></i><span class="ba-tag">Phone Repair</span></div></div>
     <div class="sb-copy reveal-right">
       <span class="sb-number mono">01 / Phone Repair</span>
       <h2>Screens, batteries, and everything in between.</h2>
@@ -62,7 +63,7 @@
 <!-- AI -->
 <section class="service-block section-tint" id="ai">
   <div class="container sb-grid rev">
-    <div class="sb-media photo photo-2 reveal-right"><img src="https://picsum.photos/seed/teliex-svc-ai/700/560" alt="AI and automation workspace"></div>
+    <div class="sb-media photo photo-2 wipe"><div class="brand-art alt"><i class="fa-solid fa-brain ba-icon"></i><span class="ba-tag">AI Solutions</span></div></div>
     <div class="sb-copy reveal-left">
       <span class="sb-number mono">02 / AI Solutions</span>
       <h2>AI that fits how your business actually runs.</h2>
@@ -81,7 +82,7 @@
 <!-- DESIGN -->
 <section class="service-block" id="design">
   <div class="container sb-grid">
-    <div class="sb-media photo reveal-left"><img src="https://picsum.photos/seed/teliex-svc-design/700/560" alt="Graphic design workspace"></div>
+    <div class="sb-media photo wipe"><div class="brand-art mix"><i class="fa-solid fa-palette ba-icon"></i><span class="ba-tag">Graphic Design</span></div></div>
     <div class="sb-copy reveal-right">
       <span class="sb-number mono">03 / Graphic Design</span>
       <h2>Brand work that looks like you, not a template.</h2>
@@ -100,7 +101,7 @@
 <!-- WEB -->
 <section class="service-block section-tint" id="web">
   <div class="container sb-grid rev">
-    <div class="sb-media photo photo-2 reveal-right"><img src="https://picsum.photos/seed/teliex-svc-web/700/560" alt="Website development on laptop"></div>
+    <div class="sb-media photo photo-2 wipe"><div class="brand-art dark"><i class="fa-solid fa-code ba-icon"></i><span class="ba-tag">Website Development</span></div></div>
     <div class="sb-copy reveal-left">
       <span class="sb-number mono">04 / Website Development</span>
       <h2>Fast, responsive sites built to convert.</h2>
@@ -119,7 +120,7 @@
 <!-- IT SUPPORT -->
 <section class="service-block" id="it">
   <div class="container sb-grid">
-    <div class="sb-media photo reveal-left"><img src="https://picsum.photos/seed/teliex-svc-it/700/560" alt="IT support and server infrastructure"></div>
+    <div class="sb-media photo wipe"><div class="brand-art"><i class="fa-solid fa-headset ba-icon"></i><span class="ba-tag">IT Support</span></div></div>
     <div class="sb-copy reveal-right">
       <span class="sb-number mono">05 / IT Support</span>
       <h2>Keep your team's tools online and secure.</h2>
@@ -170,6 +171,14 @@
 </footer>
 
 <a href="https://wa.me/2348083379054" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+<nav class="section-nav" aria-label="Page sections">
+  <a href="#repair" data-label="Repair"></a>
+  <a href="#ai" data-label="AI"></a>
+  <a href="#design" data-label="Design"></a>
+  <a href="#web" data-label="Web"></a>
+  <a href="#it" data-label="IT Support"></a>
+</nav>
 
 <script src="main.js"></script>
 </body>

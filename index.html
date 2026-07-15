@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="scroll-progress" id="scrollProgress"></div>
 <div class="bg-mesh"></div>
 <div class="bg-dots"></div>
 
@@ -53,7 +54,7 @@
     <div class="core-wrap" aria-hidden="true">
       <div class="core-ring"></div>
       <div class="core-ring r2"></div>
-      <div class="core-hub"><img src="https://picsum.photos/seed/teliex-core/260/260" alt=""></div>
+      <div class="core-hub"><div class="brand-art mix"><span class="ba-icon ba-wordmark">T</span></div></div>
       <div class="node n1"><i class="fa-solid fa-mobile-screen-button"></i></div>
       <div class="node n2"><i class="fa-solid fa-brain"></i></div>
       <div class="node n3"><i class="fa-solid fa-palette"></i></div>
@@ -115,23 +116,23 @@
     </div>
     <div class="carousel-track">
       <div class="challenge-card">
-        <div class="c-img"><img src="https://picsum.photos/seed/teliex-ch-1/400/480" alt=""></div>
+        <div class="c-img wipe"><div class="brand-art dark"><i class="fa-solid fa-mobile-screen-button ba-icon"></i></div></div>
         <div class="challenge-card-content"><span class="num mono">01</span><h4>Cracked screen, no time to visit five shops</h4></div>
       </div>
       <div class="challenge-card">
-        <div class="c-img"><img src="https://picsum.photos/seed/teliex-ch-2/400/480" alt=""></div>
+        <div class="c-img wipe"><div class="brand-art dark"><i class="fa-solid fa-palette ba-icon"></i></div></div>
         <div class="challenge-card-content"><span class="num mono">02</span><h4>A brand that doesn't look trustworthy yet</h4></div>
       </div>
       <div class="challenge-card">
-        <div class="c-img"><img src="https://picsum.photos/seed/teliex-ch-3/400/480" alt=""></div>
+        <div class="c-img wipe"><div class="brand-art dark"><i class="fa-solid fa-chart-line ba-icon"></i></div></div>
         <div class="challenge-card-content"><span class="num mono">03</span><h4>A website that gets traffic but no sales</h4></div>
       </div>
       <div class="challenge-card">
-        <div class="c-img"><img src="https://picsum.photos/seed/teliex-ch-4/400/480" alt=""></div>
+        <div class="c-img wipe"><div class="brand-art dark"><i class="fa-solid fa-robot ba-icon"></i></div></div>
         <div class="challenge-card-content"><span class="num mono">04</span><h4>Manual tasks quietly eating your week</h4></div>
       </div>
       <div class="challenge-card">
-        <div class="c-img"><img src="https://picsum.photos/seed/teliex-ch-5/400/480" alt=""></div>
+        <div class="c-img wipe"><div class="brand-art dark"><i class="fa-solid fa-headset ba-icon"></i></div></div>
         <div class="challenge-card-content"><span class="num mono">05</span><h4>IT fires nobody on your team has time for</h4></div>
       </div>
     </div>
@@ -141,8 +142,8 @@
 <!-- ABOUT TEASER -->
 <section class="about" id="about">
   <div class="container about-grid">
-    <div class="about-visual photo reveal-left">
-      <img src="https://picsum.photos/seed/teliex-about-home/700/860" alt="Teliex Technologies workspace">
+    <div class="about-visual photo wipe">
+      <div class="brand-art mix"><span class="ba-icon ba-wordmark">T</span><span class="ba-tag">Repair · AI · Design · Web · IT</span></div>
     </div>
     <div class="about-copy reveal-right">
       <span class="section-tag">About Us</span>
@@ -151,6 +152,47 @@
       <p>We work with individuals fixing a single phone and companies building full digital infrastructure — with the same attention to detail either way.</p>
       <div class="hero-actions" style="margin-top:28px;">
         <a href="about.html" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i> More About Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW WE WORK (sticky-number scroll section) -->
+<section class="process section-tint" id="how-we-work">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">How We Work</span>
+      <h2>From first message to finished job.</h2>
+      <p>The same process whether it's a cracked screen or a full website build.</p>
+    </div>
+    <div class="process-list">
+      <div class="process-step">
+        <div class="process-num-wrap"><span class="process-num">01</span></div>
+        <div class="process-copy">
+          <h3>Tell us what's wrong</h3>
+          <p>A quick message on WhatsApp or the contact form — describe the device, the site, or the problem. No forms to fill out in triplicate.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num-wrap"><span class="process-num">02</span></div>
+        <div class="process-copy">
+          <h3>We diagnose &amp; quote</h3>
+          <p>Within 24 hours you'll know exactly what's wrong, what it costs, and how long it'll take — before any work starts.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num-wrap"><span class="process-num">03</span></div>
+        <div class="process-copy">
+          <h3>We build or fix it</h3>
+          <p>The same person who scoped the job sees it through — no re-explaining your problem to someone new halfway through.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num-wrap"><span class="process-num">04</span></div>
+        <div class="process-copy">
+          <h3>You're covered after</h3>
+          <p>Repairs and builds come with a warranty and support window, so you're never on your own after delivery.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -234,15 +276,15 @@
     </div>
     <div class="portfolio-grid">
       <div class="p-card reveal">
-        <div class="p-img"><img src="https://picsum.photos/seed/teliex-proj-1/600/480" alt="E-commerce rebuild project"></div>
+        <div class="p-img wipe"><div class="brand-art"><i class="fa-solid fa-cart-shopping ba-icon"></i></div></div>
         <div class="p-overlay"><div class="p-tag">WEBSITE DEVELOPMENT</div><h4>Retail e-commerce rebuild</h4><p>Full storefront redesign + checkout optimization</p></div>
       </div>
       <div class="p-card reveal">
-        <div class="p-img"><img src="https://picsum.photos/seed/teliex-proj-2/600/480" alt="AI chatbot project"></div>
+        <div class="p-img wipe"><div class="brand-art alt"><i class="fa-solid fa-robot ba-icon"></i></div></div>
         <div class="p-overlay"><div class="p-tag">AI SOLUTIONS</div><h4>Customer support chatbot</h4><p>Cut response time from hours to seconds</p></div>
       </div>
       <div class="p-card reveal">
-        <div class="p-img"><img src="https://picsum.photos/seed/teliex-proj-3/600/480" alt="Brand identity project"></div>
+        <div class="p-img wipe"><div class="brand-art mix"><i class="fa-solid fa-swatchbook ba-icon"></i></div></div>
         <div class="p-overlay"><div class="p-tag">GRAPHIC DESIGN</div><h4>Restaurant brand identity</h4><p>Logo, menu system, and packaging</p></div>
       </div>
     </div>
@@ -288,6 +330,14 @@
 </footer>
 
 <a href="https://wa.me/2348083379054" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+<nav class="section-nav" aria-label="Page sections">
+  <a href="#home" data-label="Home"></a>
+  <a href="#about" data-label="About"></a>
+  <a href="#how-we-work" data-label="Process"></a>
+  <a href="#services" data-label="Services"></a>
+  <a href="#portfolio" data-label="Portfolio"></a>
+</nav>
 
 <script src="main.js"></script>
 </body>
